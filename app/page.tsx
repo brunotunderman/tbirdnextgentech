@@ -64,7 +64,7 @@ export default function Home() {
           <div className="hero-copy">
             <span className="eyebrow"><span className="status-dot" /> SOFTWARE VOOR DE VOLGENDE STAP</span>
             <h1>
-              Innovatie die je
+              IInnovatie die je
               <br />
               <span>verder brengt</span>
             </h1>
