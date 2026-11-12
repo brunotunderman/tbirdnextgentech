@@ -66,7 +66,7 @@ export default function Home() {
             <h1>
               Innovatie die je
               <br />
-              <span>verder brengt.</span>
+              <span>verder brengt</span>
             </h1>
             <p className="hero-description">
               We bouwen veilige, flexibele SaaS-oplossingen die ideeën sneller
