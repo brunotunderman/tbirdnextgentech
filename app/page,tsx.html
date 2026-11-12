@@ -1,0 +1,205 @@
+"use client";
+
+import Image from "next/image";
+
+export default function NextGenTechHome() {
+  return (
+    <main className="min-h-screen bg-[#0d1117] text-[#c9d1d9]">
+
+      {/* HEADER */}
+      <header className="flex items-center justify-end px-6 py-4 border-b border-[#30363d] bg-[#0d1117]">
+        <a
+          href="/login"
+          className="rounded-md bg-gradient-to-r from-[#1e90ff] to-[#00b4ff] px-5 py-2 text-sm font-semibold text-white shadow-md shadow-[#1e90ff55] hover:opacity-90 transition"
+        >
+          Login
+        </a>
+      </header>
+
+      {/* HERO */}
+      <section className="relative overflow-hidden border-b border-[#30363d] bg-gradient-to-b from-[#0d1117] to-[#161b22]">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 px-6 py-8 md:flex-row md:py-12">
+
+          {/* Left */}
+          <div className="flex-1 space-y-6">
+            <Image
+              src="/tbird-logo.png"
+              alt="Tbird NextGenTech Logo"
+              width={180}
+              height={40}
+              priority
+            />
+
+            <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
+              Innovate Faster <br />
+              <span className="text-transparent bg-gradient-to-r from-[#1e90ff] to-[#00b4ff] bg-clip-text">
+                Build with Confidence
+              </span>
+            </h1>
+
+            <p className="max-w-xl text-sm text-[#8b949e] md:text-base leading-relaxed space-y-3">
+              <span className="block">
+                Tbird NextGenTech BV ontwikkelt moderne FinTech‑ en AI‑infrastructuur die organisaties
+                versnelt met schaalbare cloud‑architectuur, real‑time data en high‑performance workflows.
+              </span>
+
+              <span className="block">
+                Onze technologie vormt de basis voor trading engines, financiële administratie,
+                enterprise‑automatisering en AI‑gedreven besluitvorming.
+              </span>
+
+              <span className="block">
+                Door AI‑accelerators, event‑driven architectuur en veilige multi‑tenant structuren
+                te combineren, creëren we een ecosysteem dat klaar is voor de toekomst.
+              </span>
+
+              <span className="block">
+                NextGenTech is ontworpen voor bedrijven die willen groeien met snelheid, veiligheid
+                en schaalbaarheid — zonder complexiteit.
+              </span>
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="/technology"
+                className="rounded-md bg-gradient-to-r from-[#1e90ff] to-[#00b4ff] px-6 py-2 text-sm font-medium text-white shadow-lg shadow-[#1e90ff55] hover:opacity-90"
+              >
+                Explore our technology
+              </a>
+            </div>
+          </div>
+
+          {/* Right: Screenshot */}
+          <div className="flex-1">
+            <div className="relative mx-auto w-full max-w-md rounded-xl border border-[#30363d] bg-[#0d1117] p-4 shadow-[0_0_60px_rgba(30,144,255,0.35)]">
+              <div className="mb-3 flex items-center justify-between text-xs text-[#8b949e]">
+                <span>NextGenTech</span>
+                <span>AI Infrastructure</span>
+              </div>
+
+              <div className="rounded-md overflow-hidden border border-[#30363d] bg-[#0d1117]">
+                <Image
+                  src="/nextgen_visual.png"
+                  alt="NextGenTech Visual"
+                  width={1200}
+                  height={700}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* TECHNOLOGY SHOWCASE */}
+      <section className="border-b border-[#30363d] bg-[#161b22]">
+        <div className="mx-auto max-w-6xl flex flex-col gap-10 px-6 py-16 md:py-20">
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-semibold md:text-3xl">
+              A unified ecosystem for modern FinTech
+            </h2>
+            <p className="text-sm text-[#8b949e] md:text-base max-w-3xl leading-relaxed">
+              Onze technologie‑suite verbindt trading, core‑infrastructuur en financiële administratie
+              tot één geïntegreerd platform dat schaalbaar, veilig en toekomstbestendig is.
+            </p>
+
+            <ul className="mt-4 space-y-2 text-sm text-[#c9d1d9]">
+              <li>• Event‑driven backend architectuur</li>
+              <li>• AI‑accelerators voor real‑time besluitvorming</li>
+              <li>• Multi‑tenant finance engine</li>
+              <li>• Predictive analytics & machine learning</li>
+              <li>• Secure API‑integraties</li>
+              <li>• Cloud‑native scaling</li>
+            </ul>
+          </div>
+
+          <div className="rounded-xl overflow-hidden border border-[#30363d] bg-[#161b22] p-4">
+            <Image
+              src="/nextgen_dashboard.png"
+              alt="NextGenTech Dashboard"
+              width={1600}
+              height={900}
+              className="w-full h-auto rounded"
+            />
+          </div>
+
+        </div>
+      </section>
+
+      {/* ROADMAP */}
+      <section className="border-b border-[#30363d] bg-[#1b222c]">
+        <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+
+          <h2 className="text-2xl font-semibold md:text-3xl">
+            Roadmap: from foundation to full automation
+          </h2>
+          <p className="mt-2 text-sm text-[#8b949e] md:text-base">
+            NextGenTech evolueert naar een volledig geautomatiseerde enterprise‑infrastructuur.
+          </p>
+
+          <div className="mt-8 grid gap-6 md:grid-cols-4">
+
+            <div className="rounded-lg border border-[#30363d] bg-[#0d1117] p-4">
+              <p className="text-xs font-semibold text-[#c9d1d9]">Phase 1</p>
+              <h3 className="mt-1 text-sm font-semibold">Core Infrastructure</h3>
+              <p className="mt-2 text-xs text-[#8b949e]">
+                High‑performance backend met event‑driven workflows.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-[#30363d] bg-[#0d1117] p-4">
+              <p className="text-xs font-semibold text-[#c9d1d9]">Phase 2</p>
+              <h3 className="mt-1 text-sm font-semibold">AI Automation Layer</h3>
+              <p className="mt-2 text-xs text-[#8b949e]">
+                Predictive analytics en machine learning integratie.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-[#30363d] bg-[#0d1117] p-4">
+              <p className="text-xs font-semibold text-[#c9d1d9]">Phase 3</p>
+              <h3 className="mt-1 text-sm font-semibold">Finance Engine</h3>
+              <p className="mt-2 text-xs text-[#8b949e]">
+                Multi‑tenant accounting & automated reporting.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-[#30363d] bg-[#0d1117] p-4">
+              <p className="text-xs font-semibold text-[#26a69a]">Phase 4</p>
+              <h3 className="mt-1 text-sm font-semibold">Enterprise Operating Model</h3>
+              <p className="mt-2 text-xs text-[#8b949e]">
+                Full automation, compliance & business workflows.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="border-b border-[#30363d] bg-gradient-to-r from-[#1e90ff] to-[#00b4ff]">
+        <div className="mx-auto max-w-6xl px-6 py-12 text-center md:text-left">
+
+          <h2 className="text-xl font-semibold text-white md:text-2xl">
+            Ready to build with confidence?
+          </h2>
+
+          <p className="mt-2 text-sm text-[#e5f2ff] md:text-base leading-relaxed max-w-2xl">
+            Ontdek hoe NextGenTech jouw organisatie kan versnellen met AI‑gedreven innovatie.
+          </p>
+
+          <a
+            href="/contact"
+            className="mt-6 inline-block rounded-md bg-[#0d1117] px-6 py-2 text-sm font-medium text-white hover:bg-[#161b22]"
+          >
+            Contact us
+          </a>
+
+        </div>
+      </section>
+
+    </main>
+  );
+}
