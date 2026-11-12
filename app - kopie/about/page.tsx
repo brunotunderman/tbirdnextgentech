@@ -31,21 +31,27 @@ const team = [
     name: "Bruno Tunderman",
     role: "Chief Executive Officer & Founder",
     image: "/team/bruno.png",
+    imageWidth: 178,
+    imageHeight: 225,
     bio: "Bruno brengt tientallen jaren ervaring in IT mee, met een loopbaan die teruggaat tot de late jaren tachtig en een lange periode bij SAP. Hij richt zich op technologie die klanten helpt vernieuwen en hun organisatie vooruitbrengt. Zijn achtergrond omvat daarnaast marketing en filosofie.",
     education:
-      "NIMA-C · Mater in Marketing Management · Master in Philosophy",
+      "NIMA-C · Master in Marketing Management Birmingham · Master in Philosophy VU Amsterdam",
   },
   {
     name: "Niels van Oostrum",
     role: "Chief Operating Officer",
     image: "/team/niels.png",
+    imageWidth: 198,
+    imageHeight: 227,
     bio: "Niels combineert een klantgerichte, ondernemende achtergrond met meer dan tien jaar ervaring in commerciële technologierollen, waaronder zes jaar bij SAP. Zijn werk raakt aan data, automatisering en AI, met aandacht voor oplossingen die betrouwbaar en prettig in gebruik zijn.",
     education: "Bachelor of Commerce · Hogeschool Leiden",
   },
   {
     name: "Thierry Tunderman",
-    role: "Chier Revenue Officer",
+    role: "Chief Revenue Officer",
     image: "/team/thierry.png",
+    imageWidth: 400,
+    imageHeight: 500,
     bio: "Thierry verbindt technologie met klantbehoeften en commerciële kansen. Vanuit zijn ervaring met klanten, salesteams en technologieproducten helpt hij complexe mogelijkheden vertalen naar duidelijke waarde. Hij richt zich op groei, partnerships en een sterke aansluiting op de markt.",
     education: "Bachelor in Science · Avans Hogeschool 's-Hertogenbosch",
   },
@@ -170,9 +176,9 @@ export default function AboutPage() {
                   <Image
                     alt={`Portret van ${person.name}`}
                     className="team-photo-image"
-                    fill
-                    sizes="(max-width: 680px) 100vw, (max-width: 900px) 50vw, 33vw"
+                    height={person.imageHeight}
                     src={person.image}
+                    width={person.imageWidth}
                   />
               
                 </div>
