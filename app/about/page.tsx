@@ -28,7 +28,7 @@ const principles = [
 
 const team = [
   {
-    name: "Bruno Tunderman",
+    name: "Bruno Tundermans",
     role: "Chief Executive Officer & Founder",
     image: "/team/bruno.png",
     imageWidth: 178,
