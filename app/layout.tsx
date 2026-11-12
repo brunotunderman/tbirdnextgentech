@@ -77,9 +77,9 @@ export default function RootLayout({
             </div>
             <div className="footer-column">
               <span className="footer-label">Onze aanpak</span>
-              <a href="/#architectuur">Meerlaags ontworpen</a>
-              <a href="/#voordelen">Gebouwd voor groei</a>
-              <a href="/contact">Bespreek je idee </a>
+              <Link href="/#architectuur">Meerlaags ontworpen</Link>
+              <Link href="/#voordelen">Gebouwd voor groei</Link>
+              <Link href="/contact">Bespreek je idee</Link>
             </div>
           </div>
           <div className="footer-bottom">
