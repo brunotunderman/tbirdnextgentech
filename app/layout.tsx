@@ -84,7 +84,7 @@ export default function RootLayout({
           </div>
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} Tbird NextGenTech BV</span>
-            <span>Next Genereation Technology IT Innovation</span>
+            <span>Next Genereation Technology IT Innovation.</span>
           </div>
         </footer>
       </body>

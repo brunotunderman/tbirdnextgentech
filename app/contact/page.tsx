@@ -38,7 +38,7 @@ export default function ContactPage() {
           <h1>
             Goed idee?
             <br />
-            <span>We denken graag met je mee</span>
+            <span>We denken graag met je mee.</span>
           </h1>
           <p>
             Of je nu een eerste idee wilt verkennen, een vraag hebt over onze
