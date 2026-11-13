@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import SiteHeader from "./site-header";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,12 +13,6 @@ export const metadata: Metadata = {
     "Tbird NextGenTech bouwt veilige, schaalbare SaaS-oplossingen met een korte time to market en een lage totale eigendomskost.",
 };
 
-const navigation = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "Over ons" },
-  { href: "/contact", label: "Contact" },
-];
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,30 +21,7 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <body>
-        <header className="site-header">
-          <div className="nav-shell">
-            <Link aria-label="Tbird NextGenTech home" className="brand" href="/">
-              <Image
-                alt=""
-                className="brand-logo"
-                height={300}
-                priority
-                src="/tbird-nextgentech-logo.png"
-                width={833}
-              />
-            </Link>
-            <nav aria-label="Hoofdnavigatie" className="main-nav">
-              {navigation.map((item) => (
-                <Link href={item.href} key={item.href}>
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-            <Link className="nav-cta" href="/contact">
-              Samenwerken <span aria-hidden="true">↗</span>
-            </Link>
-          </div>
-        </header>
+        <SiteHeader />
         <main>{children}</main>
         <footer className="site-footer">
           <div className="footer-main">
@@ -59,7 +31,7 @@ export default function RootLayout({
                   alt=""
                   className="brand-logo"
                   height={300}
-                  src="/tbird-nextgentech-logo.png"
+                  src="/tbird-nextgentech-logo-new.png"
                   width={833}
                 />
               </Link>
