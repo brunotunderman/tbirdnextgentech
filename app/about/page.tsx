@@ -138,12 +138,6 @@ export default function AboutPage() {
               onvoorspelbare complexiteit.
             </p>
             <p>
-              We combineren AI-accelerators, event-driven architectuur en
-              veilige multi-tenant structuren als bouwstenen voor toepassingen
-              in onder meer FinTech, financiële administratie,
-              bedrijfsautomatisering en AI-gedreven besluitvorming en workflows.
-            </p>
-            <p>
               Ons doel is helder: oplossingen maken die eenvoudig zijn aan te
               passen, meegroeien met de organisatie tegen minimale kosten van eigendom, 
               implementatie en beheer.
@@ -207,9 +201,8 @@ export default function AboutPage() {
               </h2>
             </div>
             <p className="section-heading-note">
-              Technologie werkt pas echt als ze mensen en organisaties helpt
-              vooruit te komen. Daarom verbinden we technische keuzes steeds
-              aan praktische waarde.
+              Technologie werkt pas echt als ze mensen en organisaties helpt vooruit te komen. Onze visie is gericht op het maken van maatwerk als tegenhanger van de standaard software van de afgelopen decennia. Daar waar standaard software veel ongewenste functionaliteit biedt, waar wel voor betaald moet worden, richten wij ons op het leveren van oplossingen zonder overbodige ballast.
+              
             </p>
           </div>
           <div className="principle-list">
@@ -234,10 +227,7 @@ export default function AboutPage() {
               <span>Eén samenhangend geheel</span>
             </h2>
             <p>
-              In het project van het EH Portaal-platform is gekozen voor een gelaagde opzet
-              waarin iedere laag een duidelijke rol heeft. Dat maakt het
-              platform beter te onderhouden en ondersteunt gecontroleerde
-              groei.
+              In één van onze projecten, het EH Portaal-platform, is ook gekozen voor een gelaagde opzet waarin iedere laag een duidelijke rol heeft. Dat maakt het platform beter te onderhouden, veilig en ondersteunt gecontroleerde groei.
             </p>
             <a
               className="inline-link inline-link-light"
