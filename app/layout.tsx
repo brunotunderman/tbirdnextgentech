@@ -32,10 +32,10 @@ export default function RootLayout({
               <Image
                 alt=""
                 className="brand-logo"
-                height={232}
+                height={300}
                 priority
                 src="/tbird-nextgentech-logo.png"
-                width={648}
+                width={833}
               />
             </Link>
             <nav aria-label="Hoofdnavigatie" className="main-nav">
@@ -58,9 +58,9 @@ export default function RootLayout({
                 <Image
                   alt=""
                   className="brand-logo"
-                  height={232}
+                  height={300}
                   src="/tbird-nextgentech-logo.png"
-                  width={648}
+                  width={833}
                 />
               </Link>
               <p>
